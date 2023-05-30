@@ -8,7 +8,8 @@ SAM repo: https://github.com/facebookresearch/segment-anything
 3. Run python script in dir export_onnx, the sam is composed of two parts: **image encoder** and **mask decoder**, we will export them into onnx model separately
 
 To export mask decoder, run 
-   
+
+python export/export_mask_decoder.py --checkpoint <path/to/checkpoint> --model-type <model_type> --output <path/to/output>
 
 
 
